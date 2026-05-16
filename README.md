@@ -123,17 +123,17 @@ http://localhost:3000
 
 ## Desktop View
 
-![Desktop View](./screenshots/desktop-view.jpg)
+![Desktop View](./notification_app_fe/screenshots/desktop-view.jpg)
 
-![Desktop View 2](./screenshots/desktop-view2.jpg)
+![Desktop View 2](./notification_app_fe/screenshots/desktop-view2.jpg)
 
 ---
 
 ## Mobile View
 
-![Mobile View](./screenshots/mobile-view.jpg)
+![Mobile View](./notification_app_fe/screenshots/mobile-view.jpg)
 
-![Mobile View 2](./screenshots/mobile-view2.jpg)
+![Mobile View 2](./notification_app_fe/screenshots/mobile-view2.jpg)
 
 ---
 
