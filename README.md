@@ -163,10 +163,3 @@ The frontend track mainly focuses on API integration using the provided APIs. No
 
 ---
 
-# Notes
-
-* Notifications are fetched from the provided API.
-* Notifications are rendered dynamically.
-* Logging middleware has been integrated throughout the project.
-* TypeScript was used for better maintainability and type safety.
-
