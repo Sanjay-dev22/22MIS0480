@@ -1,155 +1,58 @@
-# Campus Notifications Dashboard
+# Notification System Design
+- Next.js
+- React
+- TypeScript
 
-A responsive notification dashboard built using Next.js and Tailwind CSS for the Affordmed Campus Evaluation.
-
----
-
-# Features
-
-* View all campus notifications
-* Priority notifications section
-* Filter notifications by type
-* Viewed and unviewed notification tracking
-* Pagination support
-* Responsive UI for desktop and mobile
-* API integration using authorization token
-* Error handling and loading states
-* Logging middleware integration
+Features implemented:
+- Responsive dashboard
+- Priority notification section
+- Notification filtering
+- Viewed and unviewed notification tracking
+- Pagination support
+- API integration
+- Logging middleware integration
 
 ---
 
-# Tech Stack
+# Viewed and Unviewed Notifications
 
-Frontend:
+Viewed notifications are tracked using local storage.
 
-* Next.js
-* React
-* TypeScript
-* Tailwind CSS
+When a notification card is opened:
+- The notification is marked as viewed.
+- The NEW badge disappears.
 
-Utilities:
-
-* Axios
-* Local Storage
+This helps users identify newly received notifications easily.
 
 ---
 
-# Project Structure
+# API Handling
 
-```bash
-notification_app_fe/
-├── src/
-│   ├── app/
-│   │   ├── api/
-│   │   └── page.tsx
-│   ├── services/
-│   └── utils/
-│
-├── public/
-├── .env.local
-└── package.json
-```
+Notifications are fetched using API routes.
+
+The frontend communicates with the provided API using secure authorization headers.
+
+Access tokens are stored using environment variables.
 
 ---
 
-# Environment Variables
+# Responsive Design
 
-Create a `.env.local` file inside `notification_app_fe`.
+The dashboard was designed to support:
+- Desktop devices
+- Mobile devices
 
-```env
-ACCESS_TOKEN=your_access_token_here
-```
-
----
-
-# Installation Steps
-
-## 1. Clone Repository
-
-```bash
-git clone <your-github-repo-link>
-```
-
-## 2. Move Into Frontend Folder
-
-```bash
-cd notification_app_fe
-```
-
-## 3. Install Dependencies
-
-```bash
-npm install
-```
-
-## 4. Start Development Server
-
-```bash
-npm run dev
-```
-
-Application runs on:
-
-```bash
-http://localhost:3000
-```
-
----
-
-# Notification Features
-
-## Priority Notifications
-
-Top important notifications are displayed separately using priority sorting logic.
-
-## Viewed Notifications
-
-When a notification card is clicked:
-
-* NEW badge disappears
-* viewed state is stored using localStorage
-
-## Filtering
-
-Users can filter notifications by:
-
-* All
-* Placement
-* Result
-* Event
-
-## Pagination
-
-Notifications are displayed page-wise for better readability.
+Separate screenshots for both views have been included in the repository.
 
 ---
 
 # Logging Middleware
 
-A reusable logging middleware was created separately for:
+A reusable logging middleware package was developed separately as required.
 
-* API logging
-* error logging
-* request tracking
+The middleware captures:
+- Errors
+- API events
+- Important frontend actions
 
----
-
-# Backend Folder Note
-
-The frontend track mainly focuses on API integration using the provided APIs. No separate database backend implementation was required for this evaluation.
-
----
-
-# Future Improvements
-
-* Search functionality
-* Better animations
-* Dark mode
-* Notification bookmarking
-* Real-time notification updates
-
----
-
-# Author
-
-Sanjay S
+This improves debugging and monitoring.
