@@ -56,6 +56,7 @@ The application supports:
 
 # Project Structure
 
+```text
 notification_app_fe/
 │
 ├── src/
@@ -72,8 +73,7 @@ notification_app_fe/
 ├── .env.local
 ├── package.json
 └── README.md
-
----
+```
 
 # Environment Variables
 
