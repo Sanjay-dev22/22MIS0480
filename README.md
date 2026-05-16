@@ -90,7 +90,7 @@ ACCESS_TOKEN=your_access_token_here
 ## Clone Repository
 
 ```bash
-git clone [<repository-url>](https://github.com/Sanjay-dev22/22MIS0480.git)
+git clone https://github.com/Sanjay-dev22/22MIS0480.git
 ```
 
 ## Navigate to frontend folder
