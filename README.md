@@ -57,7 +57,7 @@ notification_app_fe/
 Create a `.env.local` file inside `notification_app_fe`.
 
 ```env
-ACCESS_TOKEN=your_access_token_here
+ACCESS_TOKEN=your_access_token_here 
 ```
 
 ---
@@ -67,7 +67,7 @@ ACCESS_TOKEN=your_access_token_here
 ## 1. Clone Repository
 
 ```bash
-git clone <your-github-repo-link>
+git clone https://github.com/Sanjay-dev22/22MIS0480.git
 ```
 
 ## 2. Move Into Frontend Folder
@@ -150,6 +150,3 @@ The frontend track mainly focuses on API integration using the provided APIs. No
 
 ---
 
-# Author
-
-Sanjay S
