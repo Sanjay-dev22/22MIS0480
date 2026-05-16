@@ -1,0 +1,13 @@
+const Log = require("./logger");
+
+const testLog = async () => {
+  await Log(
+    "frontend",
+    "info",
+    "component",
+    "Testing logging middleware",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiYXVkIjoiaHR0cDovLzIwLjI0NC41Ni4xNDQvZXZhbHVhdGlvbi1zZXJ2aWNlIiwiZW1haWwiOiJzYW5qYXkuMjAyMmJAdml0c3R1ZGVudC5hYy5pbiIsImV4cCI6MTc3ODkzMDc4OCwiaWF0IjoxNzc4OTI5ODg4LCJpc3MiOiJBZmZvcmQgTWVkaWNhbCBUZWNobm9sb2dpZXMgUHJpdmF0ZSBMaW1pdGVkIiwianRpIjoiMDBhYzkyODYtMzI3Yy00NWQ5LWFkNGQtYjg3MGU2YWQ3Y2FjIiwibG9jYWxlIjoiZW4tSU4iLCJuYW1lIjoic2FuamF5IHMiLCJzdWIiOiJjNjE3NmFmNy04YjJhLTQ2MDctOWY3Zi1kYThmZjNlOTYzNzMifSwiZW1haWwiOiJzYW5qYXkuMjAyMmJAdml0c3R1ZGVudC5hYy5pbiIsIm5hbWUiOiJzYW5qYXkgcyIsInJvbGxObyI6IjIybWlzMDQ4MCIsImFjY2Vzc0NvZGUiOiJTZkZ1V2ciLCJjbGllbnRJRCI6ImM2MTc2YWY3LThiMmEtNDYwNy05ZjdmLWRhOGZmM2U5NjM3MyIsImNsaWVudFNlY3JldCI6IlNDYU1LbWtLdWhoRGFSRUcifQ.Tx4pTlEAUdxJ4NEhwzY9b2GJWXuHZhzibjSNQdCAsio"
+  );
+};
+
+testLog();
